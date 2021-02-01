@@ -43,7 +43,6 @@ const getDate = new Promise((resolve, reject) => {
      name.innerHTML ='Информация о пользователе не доступна';
    };
    document.body.append(name);
-   name.addEventListener("clik", () => window.location.herf = json.html_url);
 
    let bio = document.createElement ('p');
    if (json.bio != null) {
